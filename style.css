@@ -4,7 +4,7 @@
 }
 
 body {
-    background: linear-gradient(90deg, rgba(11,115,172,1) 0%, rgba(0,255,170,1) 100%);  
+    background: linear-gradient(90deg, rgb(151, 68, 147) 0%, rgb(6, 12, 10) 100%);  
 }
 
 .output {
@@ -30,7 +30,8 @@ button {
 .output {
     grid-area: 1/1/span 1/span 4;
     width: 100%;
-    height: 100px;
+    min-height: 100px;
+    max-height: 120px;
     text-align: right;
     padding: 10px 10px;
     box-sizing: border-box;
@@ -41,11 +42,11 @@ button {
 
 .previous-operand {
     font-size: 20px;
-    height: 20px;
+    min-height: 20px;
 }
 
 .current-operand {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .span-two {
