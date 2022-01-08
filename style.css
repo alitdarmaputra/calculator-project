@@ -13,6 +13,7 @@ body {
 
 button {
     height: 60px;
+    cursor: pointer;
 }
 
 .container {
@@ -34,14 +35,17 @@ button {
     padding: 10px 10px;
     box-sizing: border-box;
     color: rgba(255, 255, 255, 0.75);
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 .previous-operand {
     font-size: 20px;
+    height: 20px;
 }
 
 .current-operand {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .span-two {
